@@ -1,14 +1,111 @@
-Search artists, playlists or tracks
-Dany Schudler
-Edit Profile
-Overview
-News
-Playlists
-Discover
-Dashboard
-Messages
-Notifications
-Account
-Featured Playlists
-Profile Views
-Tracks
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lipefy</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <div class="body">
+    <section class="sideBar">
+      <div class="userArea">
+        <div class="userContainer">
+          <img src="./assets/profile.jpg" alt="profile picture" class="userImg">
+          <div class="userText">
+            <span>Dany Schudler</span>
+            <span>Edit Profile <i class="fa-solid fa-gear"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-area">
+        <div class="music-menu">
+          <ul class="music-list">
+            <li class="music-list-item"><i class="fa-solid fa-circle-nodes"></i>Overview</li>
+            <li class="music-list-item"><i class="fa-solid fa-circle-nodes"></i>News</li>
+            <li class="music-list-item"><i class="fa-solid fa-music"></i>Playlists</li>
+            <li class="music-list-item"><i class="fa-solid fa-tower-broadcast"></i>Discover</li>
+          </ul>
+        </div>
+        <div class="settings-menu">
+          <ul>
+            <li><i class="fa-solid fa-sliders"></i>Dashboard</li>
+            <li><i class="fa-solid fa-message"></i>Messages</li>
+            <li><i class="fa-solid fa-bell"></i>Notifications</li>
+            <li><i class="fa-solid fa-user-astronaut"></i>Account</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <main>
+      <header>
+        <input type="text" placeholder="Search artists, playlists or tracks">
+      </header>
+      <section>
+        <div class="playlists">
+          <h2>Featured Playlists</h2>
+          <ul class="playlists-items">
+            <li class="playlists-item">
+              <img src="./assets/playlist1.jpg" alt="playlist1">
+              <span>y STARDUST</span>
+              <span>cks</span>
+            </li>
+            <li class="playlists-item">
+              <img src="./assets/playlist2.jpg" alt="playlist1">
+              <span>Mike Vella</span>
+              <span>12 tracks</span>
+            </li>
+            <li class="playlists-item">
+              <img src="./assets/playlist3.jpg" alt="playlist1">
+              <span>the best singles s2</span>
+              <span>163 tracks</span>
+            </li>
+            <li class="playlists-item">
+              <img src="./assets/playlist4.jpg" alt="playlist1">
+              <span>indie</span>
+              <span>165 tracks</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-main">
+          <div class="profile-views">
+            <h3>Profile Views</h3>
+            <ul>
+              <li class="profile-views-item">
+                <img src="./assets/view1.jpg" alt="">
+                <div class="item-text">
+                  <span>Jenny Villa</span>
+                  <span>1 day ago</span>
+                </div>
+                <span>4 albums</span>
+              </li>
+              <li class="profile-views-item">
+                <img src="./assets/view2.jpg" alt="">
+                <div class="item-text">
+                  <span>Aquila</span>
+                  <span>3 day ago</span>
+                </div>
+                <span>2 albums</span>
+              </li>
+              <li class="profile-views-item">
+                <img src="./assets/view3.jpg" alt="">
+                <div class="item-text">
+                  <span>This is War</span>
+                  <span>2 week ago</span>
+                </div>
+                <span>5 albums</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src=" https://kit.fontawesome.com/7cb451d0a9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

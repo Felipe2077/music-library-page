@@ -1,0 +1,40 @@
+:root {
+  --dark-color: #040517;
+  --lighter-color: #e5e5e5e7;
+  --main-color: rgb(32, 15, 86);
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  justify-content: space-around;
+  height: 100vh;
+  width: 25vw;
+}
+.userArea {
+  display: flex;
+}
+.userContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+.userImg {
+  width: 64px;
+}
+
+.userText {
+  display: flex;
+  flex-direction: column;
+}
+.menu-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.menu-area ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

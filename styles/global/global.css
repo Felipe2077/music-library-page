@@ -1,0 +1,44 @@
+:root {
+  --dark-color: #040517;
+  --lighter-color: #e5e5e5e7;
+  --main-color: rgb(32, 15, 86);
+}
+body {
+  background-color: var(--dark-color);
+  color: var(--lighter-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.body {
+  display: flex;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: linear-gradient(
+      130deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(32, 15, 86, 1) 44%,
+      rgba(27, 12, 54, 1) 100%
+    )
+    #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 2px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: none;
+  width: 1px;
+}

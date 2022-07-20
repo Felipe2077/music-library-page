@@ -1,0 +1,23 @@
+.footer-main {
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+.profile-views h3 {
+  margin-bottom: 20px;
+}
+.profile-views-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-views-item img {
+  width: 32px;
+}

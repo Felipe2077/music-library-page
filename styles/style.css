@@ -1,0 +1,10 @@
+/* reset */
+@import url(./global/reset.css);
+/* Global */
+@import url(./global/global.css);
+@import url(./global/typografy.css);
+
+/*Site Area*/
+@import url(./site/sideBar.css);
+@import url(./site/main.css);
+@import url(./site/footer.css);

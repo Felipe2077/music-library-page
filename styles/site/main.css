@@ -1,0 +1,47 @@
+:root {
+  --dark-color: #040517;
+  --lighter-color: #e5e5e5e7;
+  --main-color: rgb(32, 15, 86);
+}
+main {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    130deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 15, 86, 1) 44%,
+    rgba(27, 12, 54, 1) 100%
+  );
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 60px;
+}
+h2 {
+  font-size: 1.5rem;
+}
+.playlists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.playlists-items {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.playlists-items img {
+  width: 300px;
+  height: 200px;
+  opacity: 0.5;
+}
+.playlists-items img:hover {
+  opacity: 1;
+}
+.playlists-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
